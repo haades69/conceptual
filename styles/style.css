@@ -62,3 +62,138 @@ span{
     font-size: 15px;
     cursor: pointer;
 }
+/* service list section */
+.Servicelist-cont{
+    background: #000;
+    color: white;
+    height: 115vh;
+    background-image: url('./asset/image/footer-bg.png');
+    display: flex;
+    justify-content: space-between;
+}
+.servicebtn{
+    padding: 16px 35px;
+    border: 0px;
+    cursor: pointer;
+    color: #605f5f;
+    border-radius: 25px;
+    margin: 90px 20px 20px;
+    background-color: white;
+    font-size: 16px;
+}
+.service-header{
+    font-size: 40px;
+    color: rgb(225, 225, 218);
+    margin:0px 20px 30px ;
+}
+.service-desc{
+    font-size: 20px;
+    color: rgb(225, 225, 218);
+    margin: 0px 20px 20px;
+}
+.twolines{
+    font-size: 18px;
+    color: rgb(225, 225, 218);
+    margin: 0px 40px 20px;
+}
+.author-desc{
+    display: flex;
+    align-items: center;
+}
+.authorimg{
+    width: 70px;
+    border-radius: 100px;
+    margin: 12px 18px 0px;
+}
+.authorname{
+    font-size: 12px;
+    padding: 20px 60px 20px 0px;
+  border-right:1px solid #ff0000;
+}
+.detailsbtn{
+    padding: 14px 32px;
+    border: 0px;
+    cursor: pointer;
+    color: #ff0000;
+    border-radius: 25px;
+    margin: 0px 20px 0px;
+    background-color: white;
+    font-size: 13px;
+}
+.service-icon{
+    /* background-color: white; */
+    display: inline-block;
+    justify-content: initial;
+    margin-right: 40px;
+}
+.top{
+    display:flex;
+}
+.bottom{
+    display: flex;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    padding: 90px;
+    border: 5px solid black;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+}
+.service-logos{
+    width: 100px;
+    height: 100px;
+}
+.logoname{
+    color: #000;
+    font-size: 20px;
+}
+/* blog section */
+
+.mid-container{
+    display: flex;
+    justify-content: center;
+}
+.callappoint-cont{
+    display: flex;
+    background-color: #f92929;
+    width: 80%;
+    border-radius: 15px;
+    margin-top: -70px;
+}
+.callcentre{
+    display: flex;
+    align-items: center;
+}
+.phone{width: 100px;
+        height: 100px;
+        padding: 30px 8px 30px 30px;
+}
+.callcentre-details{
+    font-size:12px ;
+        border-right:2px solid rgb(21, 16, 41) ;
+        padding: 20px;
+}
+#number{
+    font-size: 30px;
+    color: white;
+}
+.appointment{
+    display: flex;
+    align-items: center;
+}
+.appointment-para{
+    color: white;
+    padding: 20px;
+}
+.appointbtn{
+    padding: 24px 32px;
+    border: 0px;
+    cursor: pointer;
+    color: #141414;
+    border-radius: 25px;
+    margin: 0px 20px 0px;
+    background-color: rgb(206, 206, 206);
+    font-size: 13px;
+}
